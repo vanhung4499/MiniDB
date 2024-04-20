@@ -1,7 +1,7 @@
 package com.hnv99.minidb.backend.vm;
 
-import com.hnv99.minidb.backend.dm.DataManager;
 import com.hnv99.minidb.backend.tm.TransactionManager;
+import com.hnv99.minidb.backend.dm.DataManager;
 
 public interface VersionManager {
     byte[] read(long xid, long uid) throws Exception;

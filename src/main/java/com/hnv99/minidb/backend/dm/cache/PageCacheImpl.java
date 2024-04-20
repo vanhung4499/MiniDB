@@ -54,7 +54,7 @@ public class PageCacheImpl extends AbstractCache<Page> implements PageCache {
     }
 
     /**
-     * 根据pageNumber从数据库文件中读取页数据，并包裹成Page
+     * Read page data from the database file according to pageNumber and wrap it into Page
      */
     @Override
     protected Page getForCache(long key) throws Exception {
